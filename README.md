@@ -15,14 +15,14 @@ This lib supports EVR as well (see section at the end)
 To run these code examples
 
 1. Create an empty npm project
-2. Install `@ravenrebels/ravencoin-jswallet`
+2. Install `@npm_infinianti/ravencoin-jswallet`
 3. Set "type" to "module" in your package.json
 4. Create a .mjs file called `index.mjs`
 
 ### Minimalistic example
 
 ```
-import RavencoinWallet from "@ravenrebels/ravencoin-jswallet";
+import RavencoinWallet from "@npm_infinianti/ravencoin-jswallet";
 
 RavencoinWallet.createInstance({
    mnemonic: "horse sort develop lab chest talk gift damp session sun festival squirrel",
@@ -36,7 +36,7 @@ RavencoinWallet.createInstance({
 
 ```
 //index.mjs very important that file extension is .mjs
-import RavencoinWallet from "@ravenrebels/ravencoin-jswallet";
+import RavencoinWallet from "@npm_infinianti/ravencoin-jswallet";
 
 //This wallet belongs to account "Crazy Cat" on https://testnet.ting.finance/signin/
 const options = {
@@ -72,6 +72,15 @@ Create an instance of wallet and set baseCurrency
 
 ```
 wallet.setBaseCurrency("EVR");
+```
+
+## Foxdcoin
+
+To support FOXD instead of RVN
+Create an instance of wallet and set baseCurrency
+
+```
+wallet.setBaseCurrency("FOXD");
 ```
 
 ## API
