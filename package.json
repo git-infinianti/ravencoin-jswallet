@@ -1,6 +1,6 @@
 {
-  "name": "@ravenrebels/ravencoin-jswallet",
-  "version": "0.7.8",
+  "name": "@npm_infinianti/ravencoin-jswallet",
+  "version": "0.7.9",
   "description": "Ravencoin wallet library for JavaScript",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -11,20 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ravenrebels/ravencoin-jswallet.git"
+    "url": "git+https://github.com/git-infinianti/ravencoin-jswallet.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ravenrebels/ravencoin-jswallet/issues"
+    "url": "https://github.com/git-infinianti/ravencoin-jswallet/issues"
   },
   "dependencies": {
     "@ravenrebels/ravencoin-key": "^2.5.0",
     "@ravenrebels/ravencoin-rpc": "^0.2.7",
     "@ravenrebels/ravencoin-sign-transaction": "^0.2.9"
   },
-  "homepage": "https://github.com/ravenrebels/ravencoin-jswallet#readme",
+  "homepage": "https://github.com/git-infinianti/ravencoin-jswallet#readme",
   "devDependencies": {
     "@parcel/packager-ts": "^2.8.3",
     "@parcel/transformer-typescript-types": "^2.8.3",
