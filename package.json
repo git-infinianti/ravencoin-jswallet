@@ -20,7 +20,7 @@
     "url": "https://github.com/git-infinianti/ravencoin-jswallet/issues"
   },
   "dependencies": {
-    "@ravenrebels/ravencoin-key": "^2.5.0",
+    "@npm_infinianti/ravencoin-key": "^2.5.0",
     "@ravenrebels/ravencoin-rpc": "^0.2.7",
     "@ravenrebels/ravencoin-sign-transaction": "^0.2.9"
   },
