@@ -1,5 +1,5 @@
 import { getRPC, methods } from "@ravenrebels/ravencoin-rpc";
-import RavencoinKey from "@ravenrebels/ravencoin-key";
+import RavencoinKey from "@npm_infinianti/ravencoin-key";
 import {
   ChainType,
   IAddressDelta,
@@ -26,7 +26,7 @@ export class Wallet {
   receiveAddress = "";
   changeAddress = "";
   addressPosition = 0;
-  baseCurrency = "RVN"; //Default is RVN but it could be EVR
+  baseCurrency = "RVN"; //Default is RVN but it could be EVR or FOXD
   offlineMode = false;
   setBaseCurrency(currency: string) {
     this.baseCurrency = currency;
